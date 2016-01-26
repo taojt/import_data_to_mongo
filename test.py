@@ -3,14 +3,11 @@
 __author__ = 'Tao Jiang'
 
 from mongo_connect import *
-import re
 import datetime
-import time
-
 
 def test_xiugai():
 
-	src_conn = connect("2013", "contact_resume_1_v1", host="192.168.3.221", port=27017, user="admin",password="abc@123")
+	src_conn = connect("2013", "liepin_resume", host="192.168.3.224")
 	dest_conn = connect("sanzhao_resume", "sanzhao_resume_1_v3", host="101.204.243.241")
 
 	page = 0
