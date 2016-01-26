@@ -35,6 +35,5 @@ def test_xiugai():
 			print u"---------- 已经导入所有数据"
 			break
 
-
 if __name__ == '__main__':
     test_xiugai()
